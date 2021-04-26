@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after{
+    
+}
+
+body{
+    background-color:hsl(0, 0%, 95%);
+    font-size:15px;
+}
+
+.container{
+    margin-top:85px;
+    margin-bottom:100px;
+}
+
+.sub-container{
+    display:flex;
+    flex-direction:column;
+    max-width:350px;
+    margin:auto;
+}
+
+.card{
+    padding:50px;
+}
+
+img{
+    margin-bottom:10px;
+}
+
+.sedan{
+    border-radius:8px 8px 0px 0px;
+    background-color:hsl(31, 77%, 52%);
+}
+
+.suv{
+    background-color:hsl(184, 100%, 22%);
+}
+
+.luxury{
+    border-radius:0px 0px 8px 8px;
+    background-color:hsl(179, 100%, 13%);
+}
+
+p{
+    margin-bottom:25px;
+    line-height:2;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+
+h1{
+    margin-bottom:25px;
+    color:hsl(0, 0%, 95%);
+}
+
+button{
+    border:none;
+    border-radius:20px;
+    font-size:16px;
+    padding:8px 25px;
+    background-color:hsl(0, 0%, 95%);
+    color:black;
+}
+
+button:hover{
+    background-color:transparent;
+    border:1px solid hsl(0, 0%, 95%);
+    color:hsl(0, 0%, 95%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width:720px){
+    .container{
+	margin-top:200px;
+    }
+    
+    .sub-container{
+	flex-direction:row;
+	max-width:930px;
+    }
+
+    .sedan{
+	border-radius:8px 0px 0px 8px;
+    }
+
+    .luxury{
+	border-radius:0px 8px 8px 0px;
+    }
+}
